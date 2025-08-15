@@ -38,3 +38,17 @@
     opacity: 0;
     animation: fadeIn 2s forwards;
 }
+
+.animated-port {
+    animation: fadeIn 2s infinite alternate;
+}
+
+.animated-port:hover {
+    animation: fadeIn 2s infinite alternate;
+    color: #1d4ed8; /* Tailwind's blue-700 */
+}
+
+.animated-port.p {
+    animation: fadeIn 10s infinite;
+    color: #1d4ed8; /* Tailwind's blue-700 */
+}

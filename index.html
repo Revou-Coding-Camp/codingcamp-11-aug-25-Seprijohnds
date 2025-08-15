@@ -45,6 +45,7 @@
                         <img src="/codingcamp-11-aug-25-Seprijohnds/assets/favpic.jpg" class="rounded-full h-[150px] w-[150px]">
                         <p class="text-gray-600 mt-2">Sepri John</p>
                         <p class="text-gray-600 font-bold">Software Engineer</p>
+                        <p class="text-center text-gray-600">I am a software engineer with a passion for coding and problem-solving. I love creating efficient and scalable solutions.</p>
                         
                     </div>
                 </header>
@@ -57,8 +58,8 @@
             <section id="portfolio" class="h-[400px] port-img" alt="">
                 <header>
                     <div class="flex">
-                        <h1 class="text-black text-5xl md:text-base ml-[10%] mt-15">SEPRI JOHN</h1> 
-                        <p class="text-center text-gray-800 mt-15"></p>
+                        <h1 class="text-black text-5xl ml-[20%] mt-15 animated-port">SEPRI JOHN</h1> 
+                        <p class="text-right justify-right mt-50 mr-[15%] text-gray-800 mt-15 animated-port">Portofolio isn't ready yet</p>
                     </div>
                     <div class="flex justify-center mt-4">
 
@@ -68,16 +69,17 @@
 
             <hr />
 
-            <section id="messageus" class="h-[400px] bg-gray-100">
+            <section id="messageus" class="h-[400px] bg-gray-100  ml-[5%]">
                 <header>
-                    <h1>
+                    <h1 class="text-3xl font-bold text-center mt-8 mb-4">
                         Message Us
                     </h1>
                 </header>
 
-                <form>
+                <form class="flex flex-col items-center justify-center mt-4">
                     <label for="user-message" class="block text-gray-700">Your Message:</label>
-                    <input id="user-message" type="text" class="border rounded-md w-[30%] p-2"></input>
+                    <textarea id="user-message" rows="4" placeholder="Write Your message here..." class="border rounded-md w-[70%] p-1 mb-2"></textarea>
+                    <input id="user-message" placeholder="Who are you? " type="text" class="border rounded-md w-[70%] p-1 "></input>
                     <br />
                     <button type="button" onclick="sendMessage();"
                         class="mt-2 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-500 hover:scale-110">Send</button>
