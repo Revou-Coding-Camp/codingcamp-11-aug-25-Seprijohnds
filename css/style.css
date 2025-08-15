@@ -26,6 +26,14 @@
     }
   }
 
+.port-img {
+    background-image: url(/assets/favpic.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    background-blend-mode: overlay;
+}
+
 
 .welcome-text {
     opacity: 0; 
