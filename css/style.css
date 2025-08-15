@@ -1,12 +1,12 @@
 .main-logo {
-    background-image: url(/assets/torii.jpg);
+    background-image: url(../assets/torii.jpg);
     background-size: cover;
     background-position: center;
 }
 
 
 .wall-p {
-    background-image: url(/assets/torii.jpg);
+    background-image: url(../assets/torii.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -27,7 +27,7 @@
   }
 
 .port-img {
-    background-image: url(/assets/favpic.jpg);
+    background-image: url(../assets/favpic.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.4;
