@@ -27,3 +27,17 @@ function sendMessage() {
             messageInput.value = '';
         }
 }
+
+const fullscreenIconContainer = document.getElementById('fullscreenIconContainer');
+
+fullscreenIconContainer.addEventListener('click', () => {
+  if (document.fullscreenElement) {
+    // If already in fullscreen, exit fullscreen
+    document.exitFullscreen();
+  } else {
+    // Request fullscreen for the container
+    fullscreenIconContainer.requestFullscreen().catch(err => {
+      console.error(`Error attempting to enable fullscreen: ${err.message} (${err.name})`);
+    });
+  }
+});
