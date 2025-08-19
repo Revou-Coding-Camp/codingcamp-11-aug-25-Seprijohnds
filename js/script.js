@@ -28,7 +28,7 @@ function sendMessage() {
         }
 }
 
-const fullscreenIconContainer = document.getElementById('fullscreenIconContainer');
+const fullscreenIconContainer = document.getElementById('FullscreenIconContainer');
 
 fullscreenIconContainer.addEventListener('click', () => {
   if (document.fullscreenElement) {
