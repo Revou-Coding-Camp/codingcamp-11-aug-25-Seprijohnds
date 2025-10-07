@@ -12,7 +12,7 @@
     <body>
         <header class="flex md:content-between justify-between p-[5px] sticky top-0 bg-white z-[1000]">
             
-            <a href="#home" title="favorite icon" alt="myicon" class="flex bg-gray-500 rounded-full h-[30px] w-[30px] s hrink-1  main-logo" alt="John's Profile"></a>
+            <a href="#home" title="favorite icon" class="flex bg-gray-500 rounded-full h-[30px] w-[30px] s hrink-1  main-logo" alt="John's Profile"></a>
             <nav>
                 <ul class="flex object-scale-down gap-[5px]">
 
@@ -36,13 +36,13 @@
                 </header>
             </section>
 
-            <hr />
+            <hr>
 
             <section id="ourprofile" class="min-h-[400px] bg-gray-300">
                 <header>
                     <div class="flex flex-col items-center justify-center h-full">
                         <h1 class="text-gray-800 mb-5 mt-15">Our Profile</h1>
-                        <img id="FullscreenIconContainer"src="/codingcamp-11-aug-25-Seprijohnds/assets/favpic.jpg" alt="myprofile" class="rounded-full h-[150px] w-[150px]">
+                        <img id="FullscreenIconContainer" src="/codingcamp-11-aug-25-Seprijohnds/assets/favpic.jpg" alt="myprofile" class="rounded-full h-[150px] w-[150px]">
                         <p class="text-gray-600 mt-2">Sepri John</p>
                         <p class="text-gray-600 font-bold">Software Engineer</p>
                         <p class="text-center text-gray-600">I am a software engineer with a passion for coding and problem-solving. I love creating efficient and scalable solutions.</p>
@@ -67,7 +67,7 @@
                 </header>
             </section>
 
-            <hr />
+            <hr>
 
             <section id="messageus" class="h-[400px] bg-white mr-[5%] ml-[5%]">
                 <header>
@@ -79,8 +79,8 @@
                 <form class="flex flex-col items-center justify-center mt-4">
                     <label for="user-message" class="block text-gray-700">Your Message:</label>
                     <textarea id="user-message" rows="4" placeholder="Write Your message here..." class="border rounded-md w-[70%] p-1 mb-2"></textarea>
-                    <input id="user-message" placeholder="Who are you? " type="text" class="border rounded-md w-[70%] p-1 "></input>
-                    <br />
+                    <input placeholder="Who are you? " type="text" class="border rounded-md w-[70%] p-1 "> </input>
+                    <br>
                     <button type="button" onclick="sendMessage();"
                         class="mt-2 bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-500 hover:scale-110">Send</button>
                 </form>
